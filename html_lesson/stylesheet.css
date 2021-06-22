@@ -1,0 +1,67 @@
+body {
+  background-color: #0bc46d;
+  margin: 0px 150px;
+}
+
+p {
+  margin: 0; padding: 0;
+}
+
+.main {
+  background: linear-gradient(#9198e5, #e66465);
+  width: 1040px; height: 1600px;
+  margin: 0;
+}
+
+.vp1 {
+  width: 1040px; height: 125px;
+  position: relative;
+}
+
+.titele {
+  font-size: 4em;
+  position: relative;
+  font-weight: bold;
+  font-family: 'Segoe UI Heavy';
+  text-align: center;
+  margin-top: -145px;
+  margin-bottom: 70px;
+}
+
+.retoro {
+  position: relative;
+  width: auto; height: 400px;
+  display: block;
+  margin-left: auto; margin-right: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.osusume {
+  width: 250; height: 100px;
+  margin: 50px 50px;
+}
+
+.food {
+  width: 250; height: 100px;
+  margin: 50px 50px;
+}
+
+.drink {
+  width: 250; height: 100px;
+  margin: 50px 50px;
+}
+
+.footer {
+  background-color:black;
+  width: 1040px; height: 50px;
+}
