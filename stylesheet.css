@@ -1,38 +1,46 @@
 body {
   background-color: #0bc46d;
-  margin: 0px 150px;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  margin: 0; padding: 0;
+#hoge {
+  margin: 0;          /* ページ全体のmargin */
+  padding: 0;         /* ページ全体のpadding */
+  text-align:center;
 }
 
 .main {
   background: linear-gradient(#9198e5, #e66465);
-  width: 1040px; height: 1600px;
-  margin: 0;
+  width: 1040px;
+  margin-left:auto;    /* 左側マージンを自動的に空ける */
+  margin-right:auto;   /* 右側マージンを自動的に空ける */
+  text-align:left;     /* 中身を左側表示に戻す */
+  margin-top: 0px;
 }
 
 .vp1 {
-  width: 1040px; height: 125px;
-  position: relative;
+  width: 1040px; height: 150px;
+  position: absolute;
 }
 
 .titele {
+  margin: 0px;
+  padding: 0px;
   font-size: 4em;
   position: relative;
-  font-weight: bold;
   font-family: 'Segoe UI Heavy';
   text-align: center;
-  margin-top: -145px;
-  margin-bottom: 70px;
+  vertical-align: top;
 }
 
 .retoro {
   position: relative;
-  width: auto; height: 400px;
+  height: 400px;
   display: block;
   margin-left: auto; margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 60px;
 }
 
 ul {
@@ -44,21 +52,19 @@ li {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 90px;
 }
 
 .osusume {
   width: 250; height: 100px;
-  margin: 50px 50px;
 }
 
 .food {
   width: 250; height: 100px;
-  margin: 50px 50px;
 }
 
 .drink {
   width: 250; height: 100px;
-  margin: 50px 50px;
 }
 
 .footer {
