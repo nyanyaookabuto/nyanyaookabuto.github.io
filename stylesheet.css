@@ -12,7 +12,7 @@ body {
 
 .main {
   background: linear-gradient(#9198e5, #e66465);
-  width: 1040px;
+  width: 940px;
   margin-left:auto;    /* 左側マージンを自動的に空ける */
   margin-right:auto;   /* 右側マージンを自動的に空ける */
   text-align:left;     /* 中身を左側表示に戻す */
@@ -20,7 +20,7 @@ body {
 }
 
 .vp1 {
-  width: 1040px; height: 150px;
+  width: 940px; height: 150px;
   position: absolute;
 }
 
@@ -69,5 +69,5 @@ li {
 
 .footer {
   background-color:black;
-  width: 1040px; height: 50px;
+  width: 940px; height: 50px;
 }
