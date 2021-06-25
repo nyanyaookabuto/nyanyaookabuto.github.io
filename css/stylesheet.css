@@ -1,0 +1,67 @@
+body {
+color: #333;
+font: 16px/1.8 sans-serif;
+}
+
+img{
+width:100%;
+vertical-align:bottom;
+}
+    
+header{
+text-align:center;
+}
+    
+h1{
+background-color:#eee;
+font-size:0.7em;
+text-align:center;
+padding:2px;
+margin-bottom:20px;
+}
+    
+h2{
+font-weight:bold;
+font-size:1.2em;
+}
+    
+/*ロゴマーク配置-----------*/
+#logo{
+width:30%;/*大きさを制御する*/
+margin:auto;}
+    
+/*「ようこそ」の部分-----------*/
+#info{
+border-top:solid 1px #eee;
+border-bottom:solid 1px #eee;
+text-align:center;
+margin:20px 0;}
+    
+/*インフォメーション-----------*/
+.info{
+background-color:#52150A;
+padding:10px;
+color:#fff;
+}
+    
+/*「いらっしゃいませ」のみ大きくする-----------*/
+.hello{font-size:1.5em;}
+
+/* -------------------------------------------- */
+/* ▼タブレット用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+@media (min-width: 768px) {
+
+    .cover:after {
+        /* clearfix:このブロックの直後で段組を解除 */
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+/* ------------------------------------ */
+/* ▼PC用デザインとして付け足すデザイン */
+/* ------------------------------------ */
+@media (min-width: 1024px) {
+    
+}
