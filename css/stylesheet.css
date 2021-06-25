@@ -52,16 +52,15 @@ color:#fff;
 /* -------------------------------------------- */
 @media (min-width: 768px) {
 
-    .cover:after {
-        /* clearfix:このブロックの直後で段組を解除 */
-        content: "";
-        clear: both;
-        display: block;
-    }
 }
 /* ------------------------------------ */
 /* ▼PC用デザインとして付け足すデザイン */
 /* ------------------------------------ */
-@media (min-width: 1024px) {
-    
+ @media screen {
+    body {
+        width: 940px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
