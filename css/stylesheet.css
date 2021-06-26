@@ -35,7 +35,8 @@ margin:auto;}
 border-top:solid 1px #eee;
 border-bottom:solid 1px #eee;
 text-align:center;
-margin:20px 0;}
+margin:20px 0;
+}
     
 /*インフォメーション-----------*/
 .info{
@@ -43,8 +44,23 @@ background-color:#52150A;
 padding:10px;
 color:#fff;
 }
-    
-/*「いらっしゃいませ」のみ大きくする-----------*/
+
+section {
+border-top:solid 1px #eee;
+margin: 20px 0;
+}
+
+/*footer -----------*/
+footer{
+background-color:#000;
+color:#FD14A9;
+margin:10px 0 0;
+padding:10px;
+font-size:small;
+text-align:center;
+}
+
+/*「こんにちは」のみ大きくする-----------*/
 .hello{font-size:1.5em;}
 
 /* -------------------------------------------- */
