@@ -1,0 +1,94 @@
+header {
+    width: 100%;
+}
+
+.img {
+    vertical-align:bottom;
+}
+
+.blueline {
+    background-color: rgba(55, 55, 196, 0.815);
+    height: 25px;
+}
+
+.blueline h1 {
+    width: 980px;
+    margin: 0px auto;
+    padding: 7.5px 0px;
+    color: white;
+    font-size: 10px;
+}
+
+.overall {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.list {
+    margin: 20px 0px;
+}
+
+.list li {
+    display: inline;
+    font-weight: bolder;
+    margin-right: 50px;
+}
+
+.list span {
+    color: rgb(28, 146, 224);
+    margin-right: 5px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.visual {
+    width: 960px;
+    height: 330px;
+    margin: 0px auto 40px;
+}
+
+.information {
+    float: left;
+    width: 700px;
+    margin-bottom: 70px;
+}
+
+.notice p {
+    font-weight: bolder;
+    border-bottom: solid rgba(55, 55, 196, 0.815);
+}
+
+.news div {
+    display: flex;
+    padding: 25px 0px;
+    border-bottom: thin dotted rgba(104, 104, 110, 0.815);
+}
+
+.side {
+    float: right;
+    height: 254.91px;
+}
+
+.banar1 {
+    margin-bottom: 15px;
+}
+
+dd {
+    font-size: 13.5px;
+}
+
+dt {
+    margin-right: 50px;
+    flex-basis: 230px;
+    font-size: 14px;
+}
+
+footer {
+    overflow: hidden;
+    width: 960px;
+    text-align: right;
+    padding-top: 25px;
+    border-top: thin solid rgba(104, 104, 110, 0.815);
+}
