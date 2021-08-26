@@ -85,12 +85,12 @@ a {
 }
 
 .triangle {
-    position: relative;
-    padding: 0 0 0 13px;
+    	position: relative;
+    	padding: 0 0 0 13px;
 }
 
 .triangle:before {
-	content: "";
+ 	content: "";
     position: absolute;
     top: 50%; 
     left: 0;
